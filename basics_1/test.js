@@ -1,4 +1,4 @@
-console.log("Salar")
+console.log("Hello World!");
 
 const accountId=12345;
 let accountName="Salar";
