@@ -1,16 +1,17 @@
 console.log("ajakhfksahfkjas")
 
 
-const day = "Monday";
+const day = "Saturday";
 switch (day) {
     case "Monday":
-        console.log("Start of the week.");
+        console.log("Start of the week");
         break;
     case "Friday":
-        console.log("End of the workweek.");
+        console.log("End of the week");
         break;
     default:
-        console.log("It's a regular day.");
+        console.log("It can be a weekend or a workday");
+        break;
 }
 
 //Ternary operator
