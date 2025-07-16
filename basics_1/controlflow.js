@@ -12,3 +12,8 @@ switch (day) {
     default:
         console.log("It's a regular day.");
 }
+
+//Ternary operator
+
+const a=15;
+console.log(a===5? "a is equal to 5":"a is not equal to 5");
