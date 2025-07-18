@@ -29,30 +29,32 @@ function one(){
 
 // one()
 
-if (true) {
-    const username = "hitesh"
-    if (username === "hitesh") {
-        const website = " youtube"
-        // console.log(username + website);
+if(true){
+    const username="Hitesh"
+    if(username==="Hitesh"){
+        const website="youtube"
+        console.log(username+website);
+        
     }
     // console.log(website);
+    
 }
-
 // console.log(username);
+
 
 
 // ++++++++++++++++++ interesting ++++++++++++++++++
 
 
-console.log(addone(5))
+// console.log(addone(5))
 
-function addone(num){
-    return num + 1
-}
+// function addone(num){
+//     return num + 1
+// }
 
 
 
-addTwo(5)
+console.log(addTwo(5))
 const addTwo = function(num){
     return num + 2
 }
