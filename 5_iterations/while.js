@@ -17,4 +17,4 @@ do {
     console.log(`Score given is ${score}`);
     score=score+1
     
-} while (score<+10);
+} while (score<=10);
