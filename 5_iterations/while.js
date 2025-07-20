@@ -12,7 +12,9 @@ let arr=["flasj","sipouyr","basyfs"]
 // }
 
 //DO WHILE LOOP
-
+let score=11
 do {
+    console.log(`Score given is ${score}`);
+    score=score+1
     
-} while (condition);
+} while (score<+10);
