@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Document</title>
+</head>
+<body>
+    <div class="bg-black" id="BS">
+        <h1>This is a good man</h1>
+    </div>
+    <ul>
+        <li>one</li>
+        <li>two</li>
+        <li>three</li>
+        <li>four</li>
+    </ul>
+    <script>
+        document.getElementsByClassName("bg-black")[0].innerHTML="<h1>He is a good man</h1>";
+        const elem=document.querySelectorAll('li')
+        elem.forEach(function(l){
+            l.style.backgroundColor='yellow'
+        })
+    </script>
+</body>
+</html>
