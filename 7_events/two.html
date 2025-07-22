@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>MAI OR AIK CUP CHAI</h1>
+    <button id="stop">Stop</button>
+    <script>
+        const salar=function(){
+            console.log('Salar');
+        }
+        const newH1=function(){
+            const h=(document.querySelector('h1'))
+            h.innerHTML='Chair or code'
+        }
+        const fun=setTimeout(newH1,2000)
+
+        const clear=document.querySelector('#stop')
+        clear.addEventListener('click',function () {
+            clearTimeout(fun)
+            console.log('STOPPED');
+            
+        })
+    </script>
+</body>
+</html>
