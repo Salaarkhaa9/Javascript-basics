@@ -5,17 +5,18 @@
 //     }, 1000);
 // })
 
-// // promiseOne.then(()=>{
-// //     console.log("Promise fulfilled");
-// // })
-// // new Promise(function (resolve, reject) {
-// //     setTimeout(() => {
-// //         console.log("Async task 2 is completed");
-// //         resolve()
-// //     }, 1000);
-// // }).then(()=>{
-// //     console.log("Promise 2 fulfilled");
-// // })
+// promiseOne.then(()=>{
+//     console.log("Promise fulfilled");
+// })
+// new Promise((resolve, reject)=>{
+//     setTimeout(() => {
+//         console.log("Async task 2 is completed");
+//         resolve()
+//     }, 5000);
+// }).then(()=>{
+//     console.log("Promise 2 fulfilled");
+// })
+
 // //RESOLVE PARAMETER
 // const promiseThree=new Promise((resolve, reject)=>
 // {
@@ -26,10 +27,10 @@
 //         })
 //     }, 1000);
 // })
-// // promiseThree.then(function(user){
-// //     console.log(user);
-    
-// // })
+// promiseThree.then(function(user){
+//     console.log(user); 
+// })
+
 // // PROMISE CHAINING
 // const promiseFour=new Promise(function (resolve,reject) {
 //     setTimeout(() => {
@@ -41,16 +42,16 @@
 //         }
 //     }, 1000);
 // })
-// // promiseFour.then((user)=>{
-// //     return user.username
-// // }).then((username)=>{
-// //     console.log(username);
-// // }).catch((error)=>{
-// //     console.log(error);
-// // }).finally(()=>{
-// //     console.log('The issue is either rejected or resolved');
+// promiseFour.then((user)=>{
+//     return user.username
+// }).then((username)=>{
+//     console.log(username);
+// }).catch((error)=>{
+//     console.log(error);
+// }).finally(()=>{
+//     console.log('The issue is either rejected or resolved');
     
-// // })
+// })
 
 // const promiseFive=new Promise(function(resolve,reject){
 //     let error=false
@@ -83,12 +84,12 @@
 
 // getAllUsers()
 
-fetch('https://jsonplaceholder.typicode.com/users')
-.then((response)=>{
-    return response.json()
-})
-.then((data)=>console.log(data)
-)
-.catch((error)=>{
-    console.log(error);
-})
+// fetch('https://jsonplaceholder.typicode.com/users')
+// .then((response)=>{
+//     return response.json()
+// })
+// .then((data)=>console.log(data)
+// )
+// .catch((error)=>{
+//     console.log(error);
+// })
