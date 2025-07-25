@@ -8,6 +8,8 @@
 </head>
 
 <body>
+    <button id="orange">Orange</button>
+    <button id="green">Green</button>
     <script>
         //LEXICAL SCOPE
         // function init() {
@@ -30,6 +32,16 @@
 
         // const myFunc = makeFunc();
         // myFunc();
+        
+        function clickHandler(color){
+            return function(){
+                document.body.style.backgroundColor=`${color}`
+            }
+        }
+        document.getElementById("orange").onclick=clickHandler(`orange`)
+        document.getElementById("green").onclick=clickHandler(`green`)
+
+
 
 
 
