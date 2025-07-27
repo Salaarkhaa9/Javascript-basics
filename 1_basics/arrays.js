@@ -59,7 +59,17 @@ const array=[1,2,3,4,5,6]
 const newArr=array.map((price)=>{
     return price*0.5
 })
-console.log(newArr);
+// console.log(array);
+// console.log(newArr);
+
+const element="salar"
+const sentence="i am a good boy"
+const newElem=element.split('').reverse().join('')
+const newSentence=sentence.split(' ').reverse().join(' ')
+console.log(newElem);
+console.log(newSentence);
+
+
 
 
 
