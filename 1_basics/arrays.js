@@ -44,17 +44,22 @@ const dc_heros=["spiderman", "batman"]
 
 // check array or convert to array
 
-console.log(Array.isArray("Salar"));
-console.log(Array.from("Salar"));
-console.log(Array.from({name:"salar"}));
+// console.log(Array.isArray("Salar"));
+// console.log(Array.from("Salar"));
+// console.log(Array.from({name:"salar"}));
 
-let score1=100
-let score2=200
-let score3=300
+// let score1=100
+// let score2=200
+// let score3=300
 
-console.log(Array.of(score1,score2,score3));
+// console.log(Array.of(score1,score2,score3));
 
-
+//MAP modifies the existing array
+const array=[1,2,3,4,5,6]
+const newArr=array.map((price)=>{
+    return price*0.5
+})
+console.log(newArr);
 
 
 
